@@ -1,0 +1,88 @@
+/* Home Page Container */
+.main {
+	background-image: url('../../Assets/Gradient.png'); /* Replace with your image path */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+	padding-bottom: 10px;
+}
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    /* background-color: #e5f4f5; Light teal background */
+    height: 100vh;
+    color: white;
+    /* background-color: #00bfff; */
+    
+  }
+  
+  /* Left Content Section */
+  .content {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  .title {
+    font-size: 13rem;
+    font-weight: bold;
+    /* color: #000; */
+  }
+  
+  .highlight {
+    /* color: #00bfff; Highlighted text color */
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    color: white;
+    line-height: 1.6;
+  }
+  
+  .get-started-btn {
+    margin-top: 20px;
+  background-color: #000;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  box-shadow: 0 9px 8px rgba(0, 0, 0, 0.3); /* Add shadow here */
+  }
+  
+  .get-started-btn:hover {
+    background-color: #00bfff; /* Button hover color */
+  }
+  
+  /* Right Image Section */
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 6%;
+  }
+  
+  .robot-image {
+    width: 60%;
+    height: 65%;
+  }
+
+	.section {
+		height: 100vh; /* Full height of the viewport */
+		display: flex; /* Center content if needed */
+		flex-direction: column;
+		justify-content: center; /* Center vertically */
+		align-items: center; /* Center horizontally */
+		padding: 20px;
+		background-size: cover; /* Ensures background image covers the entire section */
+		background-position: center; /* Center the background image */
+		background-repeat: no-repeat; /* Avoid background image repetition */
+		color: #fff; /* Text color (adjust as needed) */
+	}
+  
